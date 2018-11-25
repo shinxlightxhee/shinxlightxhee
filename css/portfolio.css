@@ -1,0 +1,89 @@
+
+
+h1{
+    font-family: "Arial";
+    font-size: 45px;
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    margin-left: 30px;
+}
+
+#title {
+    margin: 70px auto 60px auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#wrapper {
+    position: absolute;
+    top: 230px;
+    z-index: 2000;
+}
+
+#1st {
+    display: inline-block;
+}
+
+#2nd {
+    display: inline-block;
+}
+    
+
+/*    배치 및 여백*/
+    
+#one .item {
+    position: relative;
+    float: left;
+    margin: 5px;
+    padding: 70px;
+}
+
+
+#two .item {
+    position: relative;
+    float: left;
+    margin: 10px;
+    padding: 15px;
+}
+
+
+.subject1{
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    padding: 8px 10px 10px 10px;
+}
+
+.comment1{
+    margin-top: 10px;
+    padding: 8px 10px 10px 10px;
+}
+
+.subject2{
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    padding: 8px 10px 10px 10px;
+}
+
+
+.comment2{
+    margin-top: 10px;
+    padding: 8px 10px 10px 10px;
+}
+
+
+.clear {
+    clear: both;
+}
+
+#footer {
+    position: relative;
+    top: 1000px;
+    
+}

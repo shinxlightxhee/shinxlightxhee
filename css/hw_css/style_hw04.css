@@ -1,0 +1,158 @@
+/*        공통 css*/
+body {
+    background-color: bisque;
+    font-family: '나눔스퀘어', 'Arial';
+}
+
+/*메뉴 css*/
+
+#headA a {
+    color: burlywood;
+}
+
+#headA a:hover {
+    color: brown;
+}
+
+.menu > ul > li > a {
+    color: burlywood;
+}
+.menu > ul > li:hover > a {
+    color: brown;
+}
+.menu > ul > li.sub::after {
+    right:9px;
+    top: 22px;
+    border: 6px solid transparent;
+    border-top-color: burlywood;
+}
+.menu > ul > li:hover::after {
+    border-top-color: brown;
+}
+.menu ul ul li a {
+    color: black;
+    background-color: bisque;
+    -webkit-transition: all .35s ease;
+    -moz-transition: all .35s ease;
+    -ms-transition: all .35s ease;
+    -o-transition: all .35s ease;
+    transition: all .35s ease;
+}
+.menu ul ul li:hover > a {
+    background-color: burlywood;
+    color: bisque;
+    font-weight: 600;
+}
+
+#from a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+#from a:hover {
+    text-decoration: underline;
+    text-align: center;
+    color: brown;
+}
+
+/*        배치 및 여백*/
+
+#title {
+    margin: 30px 0 100px 0;
+    padding: 10px;
+}
+
+#wrapper {
+    padding: 100px;
+}
+
+/*        섹션1_레시피*/
+#howto {
+    margin: 5px;
+}
+
+/*        섹션2_효능*/
+#goodfor {
+    margin: 5px;
+}
+
+/*        섹션3_출처*/
+#source {
+    margin: 30px;
+}
+
+ol {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#goodfor {
+    margin-top: 100px;
+}
+
+#goodfor li {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    display: block;
+    margin top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img_tea {
+    margin: 30px 0;
+}
+
+#img_gin {
+    margin: 30px 0;
+}
+
+.neyong{
+    margin: 30px 0;
+}
+
+
+/*        css*/
+
+
+/*        제목*/
+#title {
+    background-color: burlywood;
+    font-weight: 720;
+    text-align: center;
+    color: brown;
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+}
+
+
+h2 {
+    text-align: center;
+    text-shadow: 2px 2px 3px #b47f7f;
+}
+
+h5 {
+    text-align: center;
+}
+
+ol {
+    text-align: center;
+    width: 600px;
+}
+
+
+#goodfor li {
+    text-align: center;
+    width: 400px;
+}
+
+img {
+    border-radius: 50%;
+}

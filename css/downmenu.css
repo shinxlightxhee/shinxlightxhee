@@ -1,0 +1,56 @@
+/*콘텐츠B: 개요*/
+
+.container {
+    padding-bottom: 10px;
+}
+
+.text{
+    padding: 10px;
+    text-align: center;
+    margin: 30px 50px;
+}
+
+h2{
+    color: #342222;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.container p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a{
+    color: #9345c4;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.icon {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 40px;
+    width: 5em;
+    line-height: 2em;
+    border-radius: 50%;
+    text-align: center;
+    color:#9345c4;
+}
+
+@media (min-width: 768px) {
+    .container {
+        display: flex;
+        max-width: 1020px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .text {
+        flex: 1;
+    }
+}

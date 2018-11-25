@@ -1,0 +1,228 @@
+
+/*        공통 css*/
+body {
+    font-family: '나눔스퀘어';
+    background-color: #ff655e;
+}
+
+/*메뉴 css*/
+
+#headA a {
+    color: #ffbeb6;
+}
+
+#headA a:hover {
+    color: black;
+}
+
+.menu > ul > li > a {
+    color: #ffbeb6;
+}
+.menu > ul > li:hover > a {
+    color: black;
+}
+.menu > ul > li.sub::after {
+    border: 6px solid transparent;
+    border-top-color: #ffbeb6;
+}
+.menu > ul > li:hover::after {
+    border-top-color: black;
+}
+.menu ul ul li a {
+    color: black;
+}
+.menu ul ul li:hover > a {
+    background-color: #ffbeb6;
+    color: #ff655e;
+}
+
+
+/*        css*/
+
+body h1 {
+    font-size: 29px;
+    color: #ffbeb6;
+}
+
+h2 {
+    font-size: 37px;
+    color: #ffb0a6;
+}
+
+h3 {
+    font-size: 30px;
+    color: #ffb0a6;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+
+ol {
+    font-size: 20px;
+    color: black;
+}
+
+
+p {
+    font-size: 18px;
+    color: black;
+    line-height: 1.5;
+}
+
+
+a {
+    text-align: left;
+    padding: 20px 10px;
+}
+
+img {
+    display: block;
+    border-radius: 5%;
+    border: solid 7px;
+    border-color: #ffa195;
+}
+
+#place {
+    font-weight: 900;
+    font-size: 80px;
+    color: #ffbeb6;
+    text-align: center;
+}
+
+
+.comment {
+    text-align: right;
+    color: #a81212;
+}
+
+.comment2 {
+    text-align: left;
+    color: #a81212;
+}
+
+.from {
+    text-decoration: none;
+    color: #ffbeb6;
+}
+
+.from:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+/*        table style 모음*/
+
+#wrapper1 {
+    width: 940px;
+    margin: 0 auto;
+}
+
+#wrapper2 {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#check {
+    border-collapse: collapse;
+    width: 940px;
+    font-family: "나눔스퀘어";
+}
+
+.plan {
+    border-collapse: collapse;
+    width: 900px;
+    font-family: "나눔스퀘어";
+}
+
+table,
+td,
+th {
+    border: solid 3px #ffa195;
+}
+
+tr {
+    height: 40px;
+    text-align: center;
+}
+
+td,
+th {
+    padding: 8px;
+}
+
+.table_title {
+    height: 40px;
+    background-color: #ffa195;
+}
+
+#onlyone {
+    height: 42px;
+}
+
+#col1 {
+    width: 110px;
+}
+
+#col2 {
+    width: 650px;
+}
+
+#col3 {
+    width: 140px;
+}
+
+
+/*        배치 및 여백*/
+#wrapper {
+    padding: 100px;
+}
+
+
+
+#place {
+    margin: 50px 0 20px 0;
+    padding: 60px 0 20px 0;
+}
+
+#wannago {
+    margin: 40px 10px 30px 10px;
+}
+
+img {
+    margin: 70px 20px;
+}
+
+#turn {
+    margin: 40px 0 20px 0;
+}
+
+#contents {
+    margin: 10px 0 20px 40px;
+}
+
+.subtitle {
+    margin: 80px 0 0 0;
+}
+
+.comment {
+    margin: 70px 0 60px 0;
+}
+
+.comment2 {
+    margin: 30px 0 50px 0;
+}
+
+#wrapper1 {
+    margin: auto;
+}
+
+#wrapper2 {
+    margin: auto;
+}
+
+.plan {
+    margin: 100px 0;
+}
+

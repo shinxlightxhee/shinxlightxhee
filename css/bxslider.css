@@ -1,0 +1,12 @@
+#bxslider {
+    width: 400px;
+    height: 300px;
+    margin: 90px auto 60px;
+}
+
+#bxslider img {
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+}
+

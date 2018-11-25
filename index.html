@@ -1,120 +1,161 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 
 <head>
-    <meta charset='utf-8'>
-    <title>INDEX</title>
-    <style>
-        * {
-            padding: 0;
-            margin: 0px;
-        }
-        body{
-            background-color: lightpink;
-             padding: 50px 300px;
-             line-height: 150%;
-             text-align: center;
-        }
-        h1 {
-            text-align: center;
-            margin-top: 60px;
-            color:floralwhite;
-             /* text-shadow: 5px 5px 8px #666666*/
-            text-shadow: -5px -5px 8px #666666;
-        }
-        a {
-            text-decoration: none;
-            color: black;
-        }
-        h3 {
-            text-align: center;
-            margin-top: 20px;
-            color:floralwhite;
-        }
-        h4 {
-            text-align: center;
-            color: hotpink;
-            background-color: floralwhite;
-            padding: 30px;
-        }
-        #logo img {
-            float: left;
-            margin: 10px 0 0px 50px;
-        }
-        #menu {
-            height: 40px;
-            text-align: center;
-            padding-top: 15px;
-            font-size: 20px;
-            font-weight: bold;
-        }
-        #menu li {
-            display: inline;
-        }
-        a:hover {
-            text-decoration: underline;
-            color: hotpink;
-        }
-        #photo img {
-            border-radius: 10%;
-            box-shadow: 0px 0px 60px #222222;
-        }
-        #content {
-            border: 1.5px solid rgba(255, 97, 122, 0.69);
-            padding: 20px;
-            margin-bottom: 30px;
-            margin: 20px;
-        }
-    
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <title>class B_Park Shin Hee_Index</title>
+<!--    css-->
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/style.css">
+<!--    캐러셀-->
+    <link rel="stylesheet" href="./css/jquery.bxslider.min.css">
+    <link rel="stylesheet" href="./css/bxslider.css">
+    <script src="./js/jquery-3.1.1.min.js"></script>
+    <script src="./js/jquery.bxslider.min.js"></script>
+    <script>
+        $(function() {
+            $(".bxslider").bxSlider({
+                slidthWidth:400,
+                captions:true,
+                auto:true,
+                autoControls:true,
+                stopAutoOnclick:true
+            });
+        });
+    </script>
+<!--    개요css-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="./css/downmenu.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 
 <body>
+    <!--    헤더-->
+    <header>
+        <div id="headA">
+            <h1><a href="index.html"><br>Shin<br>Hee<br>Hee<br>Hee</a></h1>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="profile.html">About</a>
+                </li>
+                <li class='active sub'>
+                    <a href="#">HomeWork</a>
+                    <ul>
+                        <li class='sub'>
+                            <a href="#">HTML</a>
+                            <ul>
+                                <li>
+                                    <a href="hw01.html">HWO1</a>
+                                </li>
+                                <li>
+                                    <a href="hw02.html">HWO2</a>
+                                </li>
+                                <li class='last'>
+                                    <a href="hw03.html">HWO3</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class='sub'>
+                            <a href="#">CSS</a>
+                            <ul>
+                                <li>
+                                    <a href="hw04.html">HWO4</a>
+                                </li>
+                                <li>
+                                    <a href="hw05.html">HWO5</a>
+                                </li>
+                                <li>
+                                    <a href="hw06.html">HWO6</a>
+                                </li>
+                                <li>
+                                    <a href="hw07.html">HWO7</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!--    본문시작-->
+<div id="wrapper">
+    <!--    소개 섹션-->
+    <section id="bxslider">
+        <!--    캐러셀-->
+        <div class="bxslider">
+            <div>
+              <img src="./img/jinsoo.jpg" title="jinsoo">
+            </div>         
+            <div>
+              <img src="./img/ugo.png" title="contentsdesign">
+            </div>
+            <div>
+              <img src="./img/shinheesunchun.jpg" title="shinheesunchun">
+            </div>
+            <div>
+              <img src="./img/shinheesunchun.jpg" title="shinheesunchun">
+            </div>
+            <div>
+              <img src="./img/loveanimal.gif" title="drawing">
+            </div> 
+        </div>
+    
+    </section>
    
-    <!-- 로고 -->
-    <div id='logo'>
-        <a href="index.html"><img src='./img/parkshinhee.png' alt='LOGO' width="150px"></a>
-    </div>
-    <br>
-      <!--    head-->
-    <h1>✨✨CONTENTS✨✨ ✨✨PROGRAMMING✨✨</h1>
-    <h3>❤ 1 - CLASS B - PARK SHIN HEE ❤</h3>
-    <!--    menu-->
-    <ul id="menu">
-       <li><a href="contact.html">CONTACT</a></li>&nbsp;&nbsp;
-        <li><a href="hw.html">HOMEWORK</a></li>&nbsp;&nbsp;
-        <li><a href="portfolio.html">PORTFOLIO</a></li>&nbsp;&nbsp;
-        <li><a href="profile.html">PROFILE</a></li>
-       
-    </ul>
-    <!-- 메인 이미지 --> 
-    <div id="photo">
-    <img src="./img/myphoto.jpg" width="200">
-    </div><br>
-    <!-- 자기 소개글 -->
-    <div id="content">
-                  <p>저는 계원 예술 대학교 디지털 미디어 디자인과에 1학년으로 진학중인 박신희입니다.<br>( ˇ͈ᵕˇ͈ ) ¨̮♡⃛ <br> 성격은 둔하면서도 예민합니다.사람과 동식물을 좋아합니다.취미는 영화보기 , 음악듣기입니다.</p>
-                
-    </div>
-    <!--    gif-->
-    <div id='동물'>
-        <img src='./img/loveanimal.gif' alt='동물사랑해' width="200px">
-    </div>
-    ❤ 
-    <br>
-    <br>
-    <br>
-    <!-- 저작권 -->
+    <section id="3rd">
+       <div class="container">
+        <div class="text">
+            <span class="far fa-folder icon"></span>
+            <h2>과제</h2>
+            <a href="hw.html">
+            <span class="fa fa-chevron-right icon2"></span>
+            </a>
+        </div>
+        <div class="text">
+            <span class="far fa-folder icon"></span>
+            <h2>직무능력1</h2>
+            <a href="mid-term.html">
+            <span class="fa fa-chevron-right icon2"></span>
+            </a>
+        </div>
+        <div class="text">
+            <span class="far fa-folder icon">
+            </span>
+            <h2>직무능력2</h2>
+            <a href="final-term.html"> 
+            <span class="fa fa-chevron-right icon2"></span>
+            </a>
+        </div>                
+      </div>
+    </section>
+
+</div>
+    <!--    본문 끝-->
+
+    
+    <div class="clear"></div>
+    
+    <!--    푸터-->
     <footer>
         <div id="footer">
-            <h4>( ˇ͈ᵕˇ͈ ) --PARK SHIN HEE_contents programming &copy <a href="index.html" class="site"><br>
-            e-mail : sinhee97@naver.com<br>
-            phone : 010-8299-1384<br>
-            instagram : shinxlightxhee 
-            </a>
-            </h4>
+            <p>
+                Copyright &copy; <span><a href="./index.html">21863032</a></span>. All Rights Reserved. <br>
+                instagram_shinxlightxhee email_sinhee97@naver.com / 010-1234-1234
+            </p>
         </div>
     </footer>
+
 </body>
 
 </html>

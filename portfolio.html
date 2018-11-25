@@ -10,15 +10,30 @@
         text-align: center;
         font-family: sans-serif;
         }
-        #menu li {
-            display: inline-block;
-            text-decoration: none;
-            text-align: center;
-            color:#ffffff;
+        #menu {
+/*        background-color: black;*/
+        width: 100%;
+        height: 50px;
+        margin-left: 1%;
         }
-        #menu li a:hover  {
-            color:hotpink;
-            text-decoration: underline;
+        #menu a {
+        text-decoration: none;
+        width: 14%;
+        height: 15px;
+        display:block;
+        float: left;
+        text-align: center;
+        margin-top: 12px;
+        padding-top: 8px;
+        color:floralwhite;
+        font-size: 20px;
+        font-weight: bold;
+        }
+        #menu a:hover {
+        text-decoration: underline;
+        color:hotpink;
+        font-size: 20px;
+        font-weight: bold;
         }
         #wrap {
         width:60%; 
@@ -64,17 +79,17 @@
                 <a href="index.html">PARK SHINHEE</a>
             </div>
     <!-- menu -->
-            <!-- 메뉴 -->
-        <ul id='menu'>
-            <li><a href="contact.html">CONTACT</a></li>&nbsp;&nbsp;
-            <li><a href="hw.html">HOMEWORK</a></li>&nbsp;&nbsp;
-            <li><a href="hw01.html">01</a></li>&nbsp;&nbsp;
-            <li><a href="hw02.html">02</a></li>&nbsp;&nbsp;
-            <li><a href="hw03.html">03</a></li>&nbsp;&nbsp;
-            <li><a href="hw04.html">04</a></li>&nbsp;&nbsp;
-            <li><a href="hw05.html">05</a></li>&nbsp;&nbsp;
-            <li><a href="hw06.html">06</a></li>&nbsp;&nbsp;
-        </ul>
+            <div id="menu">
+               <li><a href="contact.html">CONTACT</a></li>&nbsp;&nbsp;
+                <a href="hw01.html" id="1">First</a>
+                <a href="hw02.html" id="2">Second</a>
+                <a href="hw03.html" id="3">Third</a>
+                <a href="hw04.html" id="4">Fourth</a>
+                <a href="hw05.html" id="5">Fifth</a>
+                <a href="hw06.html" id="6">Sixth</a>
+                <a href="portfolio.html" id="6">Portfolio</a>
+            </div>
+        </div>
     <hr/>
     <h1>✨✨Portfolio✨✨</h1>
     <!-- photo -->
@@ -102,7 +117,6 @@
         </div>
     </footer>
     <!-- 본문 끝 --> 
-    </div>
     </div>
 </body>
 </html>

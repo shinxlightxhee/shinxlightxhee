@@ -1,0 +1,205 @@
+/*        공통 css*/
+body {
+    background-color: #f8f8f8;
+}
+
+/*메뉴 css*/
+
+#headA a {
+    color: black;
+}
+
+#headA a:hover {
+    color: #199eff;
+}
+
+.menu > ul > li > a {
+    color: black;
+}
+.menu > ul > li:hover > a {
+    color: #199eff;
+}
+.menu > ul > li.sub::after {
+    border: 6px solid transparent;
+    border-top-color: black;
+}
+.menu > ul > li:hover::after {
+    border-top-color: #199eff;
+}
+.menu ul ul li a {
+    color: black;
+}
+.menu ul ul li:hover > a {
+    background-color: rgba(25, 158, 255, 0.35);
+    color: #ffffff;
+}
+
+#wrapper {
+    padding: 100px;
+}
+
+header {
+    margin: 0 15px 0 15px;
+}
+
+#headA a {
+    margin-top: 10px;
+}
+
+/*        섹션1_이미지*/
+img {
+    display: block;
+    margin: 30px 10px 40px;
+}
+
+#from {
+    margin: 50px 10px;
+}
+
+
+#main {
+    margin: 40px 0 60px 0;
+}
+
+h1 {
+    padding: 10px;
+}
+
+h4 {
+    margin: 20px 0 0 10px;
+}
+
+
+table {
+    margin: 10px 10px 50px 10px;
+}
+
+.title {
+    padding: 30px 0 ;
+}
+
+.subti {
+    margin: 10px;
+    padding: 15px;
+}
+
+#subcon {
+    margin: 0 27px 20px;
+}
+
+#comic {
+    padding: 10px 12px 30px 12px;
+}
+
+.link {
+    padding: 10px 12px 0px 12px;
+}
+
+.content {
+    padding: 10px 12px 20px 12px;
+}
+
+/*            css*/
+
+
+/*        제목*/
+#main {
+    font-weight: 760;
+    font-size: 50px;
+    text-align: center;
+    color: #199eff;
+}
+
+h1 {
+    color: #080048;
+}
+
+
+h2 {
+    text-align: center;
+    text-shadow: 2px 2px 3px #0d0071;
+}
+
+p {
+    line-height: 2.5;
+}
+
+ul {
+    list-style-type:square;
+    line-height: 2.5;
+}
+
+.subti {
+    background-color: rgba(127, 216, 255, 0.26);
+    width: 250px;
+}
+
+
+.saying {
+    font-weight: 700;
+    color: #193dff;
+}
+
+#comic a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 550;
+    color: #199eff
+}
+
+#comic a:hover{
+    text-decoration:underline;
+    font-size: 17px;
+    font-weight: 550;
+    color: black
+}
+
+.link a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 550;
+    color: #199eff
+}
+
+.link a:hover{
+    text-decoration:underline;
+    font-size: 17px;
+    font-weight: 550;
+    color: black
+}
+
+.num {
+    font-size: 16.5px;
+    font-weight: 730;
+    color: darkblue;
+}
+
+#sense{
+    border-collapse: collapse;
+    border: solid 3px rgba(25, 158, 255, 0.35);
+    width: 850px;
+    height: 220px;
+    text-align: center;
+}
+
+#tool {
+    border-collapse: collapse;
+    border: solid 3px rgba(25, 158, 255, 0.35);
+    width: 700px;
+    height: 130px;
+    text-align: center;
+}
+
+.first {
+    background-color: rgba(127, 216, 255, 0.13);
+    font-size: 18px;
+    color: darkblue;
+}
+
+.left {
+    width: 80px;
+}
+
+.right {
+    width: 500px;
+}
