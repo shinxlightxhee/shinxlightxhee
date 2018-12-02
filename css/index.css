@@ -1,0 +1,86 @@
+@media (min-width: 768px) {
+    .conB .container {
+        display: flex;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .conB .text {
+        flex: 1;
+    }
+}
+
+/*   슬라이더   */
+#slider {
+    width: 600px;
+    margin: auto;
+    background-color: rgba(86, 86, 136, 0.54);
+    position: relative;
+    height: 500px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+#expalnation {
+    color: rgba(86, 86, 136, 0.54);
+    margin-bottom: 20px;
+    font-family: 'Anton', sans-serif;
+}
+.title {
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+.text1 {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    color: antiquewhite;
+    font-size: 35px;
+    text-shadow: 5px 5px 10px #66666666;
+}
+/*   개요   */
+.conB {
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+.conB .container .text {
+    padding: 20px;
+}
+
+.conB .container .text .fas {
+    font-size: 60px;
+    color: #0c006d;
+    transform: scale(1);
+    transition: all 0.5s;
+    margin-bottom: 20px;
+}
+
+.conB .container .text .fas:hover {
+    color: rgb(255, 255, 255);
+    transform: scale(1.2);
+}
+
+.conB .container .text  {
+    font-size: 20px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    background-color: rgb(165, 165, 255);
+    color:antiquewhite;
+    margin-bottom: 10px;
+}
+
+.conB .container .text p {
+    height: 10px;
+    color:antiquewhite;
+}
+
+.conB .container .text a {
+    color: rgba(223, 216, 255, 0.73);
+    text-decoration: none;
+    transition: all 0.2s;
+    font-family: 'Amatic SC', cursive;
+    font-size: 10px;
+}
+
+.conB .container .text a:hover, a:visited {
+    color: rgb(221, 211, 255);
+    text-decoration: none;
+}
